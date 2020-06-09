@@ -1,0 +1,30 @@
+{
+  "name": "react-hook-typescript",
+  "version": "1.0.0",
+  "private": true,
+  "repository": "git@github.com:W-ambition/react-hook-typescript.git",
+  "author": "wangchuanqi <1563510709@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack"
+  },
+  "dependencies": {
+    "@types/react": "^16.9.35",
+    "@types/react-dom": "^16.9.8",
+    "antd": "^4.3.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.10.1",
+    "awesome-typescript-loader": "^5.2.1",
+    "clean-webpack-plugin": "^3.0.0",
+    "html-webpack-plugin": "^4.3.0",
+    "source-map-loader": "^1.0.0",
+    "typescript": "^3.9.5",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
